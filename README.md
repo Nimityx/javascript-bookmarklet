@@ -23,7 +23,7 @@ javascript:(function() {var x = document.querySelectorAll("a");var i;for (i = 0;
 
 ## Prevent redirect
 ```javascript
-javascript:(function() {window.onbeforeunload=null;})()
+javascript:(function() {window.onbeforeunload=function() {return "Prevented";}})()
 ```
 
 ## Enable right-click
