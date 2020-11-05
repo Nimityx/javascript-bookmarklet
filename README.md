@@ -6,7 +6,7 @@ A group of javascript bookmarklets written by Nimityx
 javascript:(function() {document.getElementsByTagName("IFRAME")[0].src=document.getElementsByTagName("IFRAME")[0].src.toString().replace('youtube','youtube-nocookie');})()
 ```
 
-## Replace all youtube embed iframe with youtube-nocookie, youtube URL prompted
+## Replace all iframe with youtube-nocookie, youtube URL prompted
 1
 ```javascript
 javascript:(function() {var x = document.querySelectorAll("iframe");var i;for (i = 0; i < x.length; i++) {x[i].src = "https://miniurl.id/norobots/youtube?autoplay=0&v=" + prompt("Please enter a youtube URL");}})()
