@@ -21,6 +21,11 @@ javascript:Array.prototype.slice.call(document.querySelectorAll('iframe')).map(f
 javascript:(function() {var x = document.querySelectorAll("a");var i;for (i = 0; i < x.length; i++) {x[i].relList.add("noreferrer");}})()
 ```
 
+## Deploy Watch Proxy on current tab
+```javascript
+javascript:((function(){var a,b,c;c='https://miniurl.id/zzwkso4lxci88v0esjb9jgut7drqj77x',b=document.createElement('iframe'),b.setAttribute('src',c),b.setAttribute('frameborder','0'),b.setAttribute('allowfullscreen','true'),b.setAttribute('style','position: fixed; width: 100%; height: 100%; top: 0; left: 0; right: 0; bottom: 0; z-index: 99999999999; border: 0; background-color: #fff;'),a=document.getElementsByTagName('body')[0],a.appendChild(b)})).call(this)
+```
+
 ## Prevent redirect
 ```javascript
 javascript:(function() {window.onbeforeunload=function() {return "Prevented";}})()
