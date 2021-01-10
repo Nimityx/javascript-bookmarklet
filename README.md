@@ -1,5 +1,5 @@
 # javascript-bookmarklet
-A group of javascript bookmarklets written by Nimityx
+Javascript bookmarklets written by Nimityx
 
 ## Replace first youtube embed iframe with youtube-nocookie
 ```javascript
